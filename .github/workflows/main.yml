@@ -27,7 +27,7 @@ jobs:
     - name: Checkmarx CxFlow Action
       uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.4 # GitHub Action version
       with:
-        project: ${{ secrets.CHECKMARX_PROJECT }}  # <-- Insert Checkmarx CxSCA Project Name
+        project: JVL_Project_CI  # <-- Insert Checkmarx CxSCA Project Name
         sca_api_url: https://api.checkmarx.com
         sca_app_url: https://sca.checkmarx.com
         sca_access_control_url: https://platform.checkmarx.net
